@@ -107,20 +107,35 @@ To copy the output from HDFS to your local machine:
 
 ## Sample Input: 
  ```bash
-   Hello world
-   Hello Hadoop
-   Hadoop is powerful
-   Hadoop is used for big data
+ Bali is predominantly a Hindu country. Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi beliefs. Most of the dancing portrays tales of good versus evil.mvn clean package
+
    ```
 
 ## Expected output: 
  ```bash
-Hadoop 3
-Hello 2
-used 1
-for 1
-big 1
-data 1
-powerful 1
-world 1
+its	2
+Bali	2
+dancing	2
+good	1
+traditional	1
+Hindu	1
+country.	1
+evil.mvn	1
+package	1
+tales	1
+versus	1
+for	1
+Hindi	1
+inspired	1
+known	1
+dancing.	1
+The	1
+beliefs.	1
+clean	1
+the	1
+Most	1
+elaborate,	1
+portrays	1
+predominantly	1
+
    ```
